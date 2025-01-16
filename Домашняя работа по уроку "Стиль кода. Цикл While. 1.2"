@@ -1,0 +1,26 @@
+# По приколу для себя 
+# my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
+# while my_list[0] > 0:
+#     print(my_list[0])
+#     break
+# while my_list[1] > 0:
+#     print(my_list[1])
+#     break
+# while my_list[2] > 0:
+#     print(my_list[2])
+#     break
+# while my_list[3] > 0:
+#     print(my_list[3])
+#     break
+# while my_list[4] > 0:
+#     print(my_list[4])
+#     break
+# while my_list[5] > 0:
+#     print(my_list[5])
+#     break
+# ДЗ вот тут выполнение
+my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
+i = 0
+while my_list[i] > 0:
+    print(my_list[i])
+    i = i + 1
