@@ -18,9 +18,25 @@
 # while my_list[5] > 0:
 #     print(my_list[5])
 #     break
-# ДЗ вот тут выполнение
+# ДЗ вот тут выполнение исправил без функции len.
 my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
 i = 0
-while my_list[i] > 0:
+while my_list[i] >= 0:
     print(my_list[i])
     i = i + 1
+# ДЗ вот тут выполнение исправил c функцией len.
+my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
+i = 0
+while i < len(my_list):
+    e = my_list[i]
+    if e < 0:
+        break
+    if e > 0:
+        print(e)
+    i = i + 1
+# ДЗ для себя сделал
+for my_list in my_list:
+    if my_list < 0:
+        break
+    if my_list > 0:
+        print(my_list)
